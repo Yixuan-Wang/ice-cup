@@ -1,6 +1,6 @@
 # `ice-cup-sgl`
 
-> [!WARN]
+> [!WARNING]
 > As of now, you need to manually pin `nvidia-cudnn-cu12` to be `>=9.15.0` to resolve a known CuDNN bug.
 > ```toml
 > [tool.uv]
@@ -8,6 +8,6 @@
 >    "nvidia-cudnn-cu12>=9.15.0"
 > ]
 
-Prepackaged [SGLang]() environment recipes.
+Prepackaged [SGLang](https://www.sglang.io/) environment recipes.
 
-See the offical [repo](https://github.com/sgl-project/sglang) and [release](https://github.com/sgl-project/sglang/releases) for more details on SGLang and [changelog](./CHANGELOG.md) for prepackaged environment updates.
+See the offical [document](https://docs.sglang.io/), [repo](https://github.com/sgl-project/sglang) and [release](https://github.com/sgl-project/sglang/releases) for more details on SGLang and [changelog](./CHANGELOG.md) for prepackaged environment updates.

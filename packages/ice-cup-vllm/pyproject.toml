@@ -1,0 +1,29 @@
+[project]
+name = "ice-cup-vllm"
+version = "0.18.0+cu128"
+requires-python = ">=3.10"
+license = { file = "../LICENSE" }
+dependencies = [
+    "vllm==0.18.0",    
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=9"
+]
+
+[tool.uv.sources]
+torch = [
+    { index = "pytorch-cu128" },
+]
+
+[[tool.uv.index]]
+name = "pytorch-cu128"
+url = "https://download.pytorch.org/whl/cu128"
+explicit = true
+
+# FlashInfer is not required by default
+[[tool.uv.index]]
+name = "flashinfer-cu128"
+url = "https://flashinfer.ai/whl/cu128"
+explicit = true
