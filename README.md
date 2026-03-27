@@ -2,7 +2,7 @@
 
 Prepackaged dependency recipes for creating reproducible Python environments.
 
-> [!INFO]
+> [!NOTE]
 > Currently these recipes are designed to use with [uv](https://github.com/astral-sh/uv).
 > If you use other tools, you can use [`uv export`](https://docs.astral.sh/uv/reference/cli/#uv-export) to obtain
 > a `requirements.txt` or a PEP 751 `pylock.toml` file.
@@ -11,6 +11,7 @@ Prepackaged dependency recipes for creating reproducible Python environments.
 
 | Package | Description |
 | --- | --- |
+| [`ice-cup-vllm`](./packages/ice-cup-vllm/) | [vLLM](https://github.com/vllm-project/vllm) |
 | [`ice-cup-sgl`](./packages/ice-cup-sgl/) | [SGLang](https://github.com/sgl-project/sglang) |
 
 ## Trivia
