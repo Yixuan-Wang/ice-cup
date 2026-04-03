@@ -4,7 +4,7 @@ version = "0.18.0+cu128"
 requires-python = ">=3.10"
 license = { file = "../LICENSE" }
 dependencies = [
-    "vllm==0.18.0",    
+    "vllm==0.19.0",    
 ]
 
 [dependency-groups]
